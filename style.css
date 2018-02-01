@@ -1,0 +1,78 @@
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(178, 178, 178);
+  font-weight: lighter;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+.banner {
+  background-image: url(https://www.unsplash.it/1000/1000?random);
+  padding: 200px;
+  /*height: 500px;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner h2 {
+  font-style: italic;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+.container h2, h3{
+  letter-spacing: 3px;
+}
+
+@media (min-width: 400px) {
+  .container {
+    width: 350px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    width: 1200px;
+  }
+}
